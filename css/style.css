@@ -1751,7 +1751,7 @@ body {
 
 .hero {
   padding: 141px 0 194px 0;
-  background-image: url(/img/hero_bg.png);
+  background-image: url(./img/hero_bg.png);
   background-repeat: no-repeat;
   background-position: 112% 20%;
   background-size: 60%;
