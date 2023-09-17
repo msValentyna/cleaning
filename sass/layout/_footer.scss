@@ -1,0 +1,144 @@
+.footer {
+  background-color: $color-background-dark;
+  padding: 60px 0 16px 0;
+
+}
+.footer__wrapper {
+  @include media-extra-large {
+    padding: 0 30px;
+  }
+  @include media-small {
+    padding: 0 20px;
+  }
+}
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 109px;
+  @include media-extra-large {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 48px;
+  }
+}
+.footer__menu {
+  display: flex;
+  // width: 600px;
+  justify-content: space-between;
+  @include media-extra-large {
+    flex-wrap: wrap;
+  }
+
+}
+.footer__about-us {
+}
+.footer__title {
+  @include font ($size: 2rem, $height: normal, $weight: 600, $style: normal);
+  margin-bottom: 16px;
+}
+.footer__list {
+}
+.menu__item + .menu__item {
+  margin-left: 100px;
+  @include media-extra-large {
+    margin-left: 0;
+  }
+}
+.footer__item {
+  @include font;
+  margin-bottom: 8px;
+  @include media-small {
+    width: 50%;
+    min-width: 150px;
+  }
+}
+.footer-socials__item {
+
+}
+
+.footer-item-services {
+  @include media-small {
+    order: 3;
+    width: 100%;
+    margin-top: 34px;
+  }
+  
+}
+
+.footer-item-services .footer__link {
+  display: block;
+  width: 300px;
+}
+
+.footer__link {
+  color: $color-text;
+  @extend %transition;
+  &:hover {
+    color: $color-accent;
+  }
+  @include media-extra-large {
+    @include font ($size: 1.6rem);
+  }
+}
+.footer__services {
+}
+.footer__contacts {
+}
+.footer-contact__link {
+  @include font($weight: 700);
+  color: $color-accent;
+  @extend %transition;
+  &:hover {
+    color: $color-accent-light;
+  }
+}
+.socials__title {
+}
+.footer__socisls {
+  
+}
+.footer-socials__list {
+  display: flex;
+  gap: 16px;
+  // @include media-small {
+  //   width: 124px;
+  // }
+  
+}
+.footer-socials__link {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: $color-light;
+  @extend %transition;
+  &:hover {
+    transform: scale(1.1);
+    background-color: $color-background;
+  }
+}
+.footer__bottom {
+  @include flex;
+}
+.footer__copyright {
+  display: flex;
+  gap: 50px;
+  @include media-small {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+}
+.copyright__text {
+  // color: $color-text-light;
+  // @include font ($size: 1.2rem);
+}
+.copyright__link {
+  display: inline-block;
+  // color: $color-text-light;
+  // @include font ($size: 1.2rem);
+  @extend %transition;
+  &:hover {
+    color: $color-accent-light;
+  }
+}

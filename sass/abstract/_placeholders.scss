@@ -1,0 +1,22 @@
+%transition {
+  transition: all .3s ease-out;
+}
+//
+%font-primary {
+  font-family: 'Open Sans', Verdana, sans-serif;
+}
+%font-secondary {
+  font-family: 'Montserrat', Verdana, sans-serif;
+}
+%font-other {
+  font-family: 'Inter', Verdana, sans-serif;
+}
+//
+%border {
+  border-radius: 50px;
+  border: 2px solid $color-accent;
+}
+%border--white {
+  border-radius: 50px;
+  border: 2px solid $color-light;
+}

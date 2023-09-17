@@ -1,0 +1,32 @@
+.button {
+  display: inline-block;
+  padding: 18px 26px;
+  background-color: $color-accent;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  @extend %transition;
+
+  @include font($weight: 600);
+  color: $color-light;
+  &:hover {
+    background-color: $color-accent-light;
+  }
+  @include media-medium {
+    @include font($size: 1.5rem, $weight: 600);
+  }
+}
+.button_bordered {
+  display: inline-block;
+  padding: 18px 26px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid $color-accent;
+  @extend %transition;
+  @include font ($weight: 600);
+  color: $color-accent;
+  &:hover {
+    background-color: $color-accent;
+    border-color: transparent;
+    color: $color-light;
+  }
+}

@@ -1,0 +1,297 @@
+.tooltip__wrapper {
+  width: fit-content;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tooltip__content {
+  position: relative;
+  padding: 7px 10px;
+  border-radius: 5%;
+  width: fit-content;
+  background-color: $color-light;
+  margin-bottom: 18px;
+  text-align: center;
+  &::after {
+    content: "";
+    height: 0; 
+    width: 0;
+    position: absolute; 
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 12px solid $color-light;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+  }
+}
+.tooltip__text {
+  display: block;
+  @include font ($size: 1.3rem);
+  color: $color-text;
+  text-align: center;
+  @include media-medium {
+    @include font ($size: .9rem);
+    line-height: 1;
+  }
+}
+.tooltip__circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-accent-extra-light;
+  @include media-large {
+    width: 20px;
+    height: 20px;
+  }
+}
+.tooltip__icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: $color-accent;
+  &::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    height: 8px;
+    width: 1px;
+    background-color: $color-light;
+  }
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(90deg);
+    // transform: translate(-50%, -50%);
+    content: '';
+    height: 8px;
+    width: 1px;
+    background-color: $color-light;
+  }
+  @include media-large {
+    width: 12.5px;
+    height: 12.5px;
+  }
+}
+
+
+.tooltip__content--bottom {
+  position: relative;
+  padding: 7px 10px;
+  border-radius: 5%;
+  width: fit-content;
+  background-color: $color-light;
+  margin-top: 18px;
+  text-align: center;
+  &::before {
+    content: "";
+    height: 0; 
+    width: 0;
+    position: absolute; 
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 12px solid $color-light;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+  }
+}
+.tooltip__text {
+}
+.tooltip__circle {
+}
+.tooltip__circle--top {
+}
+
+
+
+.tooltip-kitchen-1__wrapper {
+  position: absolute;
+  top: 82%;
+  left: 28%;
+  @include media-small {
+    top: 70%;
+    left: 20%;
+  }
+}
+.tooltip-kitchen-2__wrapper {
+  position: absolute;
+  top: 45%;
+  left: 36%;
+  @include media-small {
+    top: 37%;
+    left: 33%;
+  }
+}
+.tooltip-kitchen-3__wrapper {
+  position: absolute;
+  top: 53%;
+  left: 53%;
+
+}
+.tooltip-kitchen-4__wrapper {
+  position: absolute;
+  top: 36%;
+  left: 71%;
+  @include media-small {
+    top: 30%;
+    left: 58%;
+  }
+}
+.tooltip-kitchen-5__wrapper {
+  position: absolute;
+  top: 13%;
+  left: 76%;
+  @include media-small {
+    min-width: 30%;
+    top: 8%;
+    left: 69%;
+  }
+}
+
+
+
+.tooltip-room-1__wrapper {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  @include media-small {
+    top: 34%;
+    left: 12%;
+  }
+}
+.tooltip-room-2__wrapper {
+  position: absolute;
+  top: 81%;
+  left: 24%;
+  @include media-small {
+    top: 68%;
+    left: 15%;
+  }
+}
+.tooltip-room-3__wrapper {
+  max-width: 18%;
+  position: absolute;
+  top: 43%;
+  left: 32%;
+  @include media-small {
+    top: 15%;
+    left: 36%;
+  }
+}
+.tooltip-room-4__wrapper {
+  max-width: 15%;
+  position: absolute;
+  top: 3%;
+  left: 46%;
+  @include media-small {
+    min-width: 36%;
+    top: 0%;
+    left: 38%;
+  }
+}
+.tooltip-room-5__wrapper {
+  max-width: 20%;
+  position: absolute;
+  top: 60%;
+  left: 52%;
+  @include media-small {
+    min-width: 32%;
+    top: 59%;
+    left: 44%;
+  }
+}
+.tooltip-room-6__wrapper {
+  position: absolute;
+  top: 31%;
+  left: 65%;
+  @include media-small {
+    min-width: 28.5%;
+    top: 1%;
+    left: 71%;
+
+  }
+}
+.tooltip-room-7__wrapper {
+  max-width: 18%;
+  position: absolute;
+  top: 56%;
+  left: 79%;
+  @include media-small {
+    min-width: 29.5%;
+    top: 44%;
+    left: 70%;
+  }
+}
+
+
+
+.tooltip-bathroom-1__wrapper {
+  max-width: 17%;
+  position: absolute;
+  top: 78%;
+  left: 9%;
+  @include media-small {
+    top: 59%;
+    left: 4%;
+  }
+}
+.tooltip-bathroom-2__wrapper {
+  max-width: 17%;
+  position: absolute;
+  top: 16%;
+  left: 30%;
+  @include media-small {
+    top: 2%;
+    left: 30%;
+  }
+}
+.tooltip-bathroom-3__wrapper {
+  max-width: 18%;
+  position: absolute;
+  top: 58%;
+  left: 28%;
+  @include media-small {
+    top: 44%;
+    left: 28%;
+  }
+}
+.tooltip-bathroom-4__wrapper {
+  max-width: 17%;
+  position: absolute;
+  top: 70%;
+  left: 49%;
+  @include media-small {
+    top: 67%;
+    left: 49%;
+  }
+}
+.tooltip-bathroom-5__wrapper {
+  max-width: 17%;
+  position: absolute;
+  top: 13%;
+  left: 66%;
+  @include media-small {
+    top: 13%;
+    left: 66%;
+  }
+}
+.tooltip-bathroom-6__wrapper {
+  max-width: 17%;
+  position: absolute;
+  top: 61%;
+  left: 80%;
+  @include media-small {
+    top: 49%;
+    left: 80%;
+  }
+}

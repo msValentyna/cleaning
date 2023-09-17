@@ -1,0 +1,35 @@
+.phone {
+  min-width: 190px;
+  height: 61px;
+  padding: 18px 26px;
+  @extend %border;
+  @include flex;
+  @extend %transition;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.phone__link {
+  @include font ($weight: 600);
+  color: $color-accent;
+  @include media-extra-large {
+    @include font ($size: 1.6rem, $weight: 600);
+  }
+}
+
+.phone--white {
+
+  padding: 15px 20px;
+  @extend %border--white;
+  @include flex;
+  @extend %transition;
+  background-color: $color-light;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.phone__link--white {
+  @include font ($weight: 600);
+  color: $color-accent;
+  display: block;
+}

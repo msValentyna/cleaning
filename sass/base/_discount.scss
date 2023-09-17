@@ -1,0 +1,53 @@
+.discount {
+  position: relative;
+  padding: 100px 60px;
+  background-color: $color-accent;
+  border-radius: 30px;
+  &::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    // right: 60px;
+    right: 5%;
+    content: "";
+    display: block;
+    width: 268px;
+    height: 206px;
+    rotate: (-15deg);
+    background-image: url(/img/discount_bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @include media-medium {
+      top: 47%;
+      right: 3%;
+      width: 198px;
+      height: 150px;
+    }
+    @include media-small {
+      width: 160px;
+      height: 121px;
+      top: 43%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  @include media-medium {
+    padding: 60px 30px;
+  }
+  @include media-small {
+    padding: 32px 25px;
+    height: 321px;
+  }
+}
+.discount__title {
+  display: block;
+  max-width: 540px;
+  @include media-large {
+    max-width: 360px;
+  }
+  @include media-small {
+    margin: 0 auto;
+  }
+
+}

@@ -1,0 +1,26 @@
+.questions {
+  padding-top: 116px;
+  @include media-large {
+    padding-top: 72px;
+  }
+  @include media-small {
+    padding-top: 64px;
+  }
+}
+.questions__title {
+  margin-bottom: 64px;
+}
+.questions__accordion {
+  margin-bottom: 60px;
+  @include media-large {
+    margin-bottom: 56px;
+  }
+  @include media-small {
+    margin-bottom: 48px;
+  }
+}
+.question-accordion__button {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}

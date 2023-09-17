@@ -1,0 +1,32 @@
+@mixin font ($size: 1.8rem, $height: normal, $weight: 400, $style: normal) {
+  font-size: $size;
+  font-style: $style;
+  font-weight: $weight;
+  line-height: $height;
+}
+@mixin flex ($display: flex, $alignIt: center, $justCont: center) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@mixin media-laptop {
+  @media (max-width: $content-width) { @content; }
+}
+@mixin media-extra-large {
+  @media (max-width: $extra-large) { @content; }
+}
+@mixin media-large {
+  @media (max-width: $large) { @content; }
+}
+@mixin media-medium {
+  @media (max-width: $medium) { @content; }
+}
+@mixin media-small {
+  @media (max-width: $small) { @content; }
+}
+@mixin media-extra-small {
+  @media (max-width: $extra-small) { @content; }
+}

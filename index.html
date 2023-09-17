@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <div class="header__left">
+          <a href="#" class="logo">
+            <img src="img/svg/logo.svg" alt="Comfort Group logo" class="logo-image">
+          </a>
+          <ul class="header__switch switch">
+            <li class="switch__item active"><a href="#" class="switch__link">Дім</a></li>
+            <li class="switch__item"><a href="#" class="switch__link">Офіс</a></li>
+          </ul>
+        </div>
+
+        <div class="header__middle">
+          <ul class="header__menu">
+            <li class="header-menu__item">
+              <a href="#" class="header-menu__link">Після ремонту</a>
+            </li>
+            <li class="header-menu__item">
+              <a href="#" class="header-menu__link">Розрахунок вартості</a>
+            </li>
+          </ul>
+          <ul class="header-social social">
+            <li class="social__item">
+              <a href="#" class="social__link"><svg width="40" height="40">
+                <use class="social__icon" href="img/svg/symbol-defs.svg#icon-instagram"></use>
+              </svg></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link"><svg width="40" height="40">
+                <use class="social__icon" href="img/svg/symbol-defs.svg#icon-facebook"></use>
+              </svg></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link"><svg width="40" height="40">
+                <use class="social__icon" href="img/svg/symbol-defs.svg#icon_whatsapp"></use>
+              </svg></a>
+            </li>
+          </ul>
+          <div class="phone header__phone">
+            <a href="tel:+48534517801" class="phone__link">+48 534 517 801</a>
+          </div>
+        </div>
+
+        <div class="hamburger-menu__container">
+
+          <div class="hamburger-menu__top">
+            <a href="#" class="hamburger-menu-logo">
+              <img src="img/svg/logo-white.svg" alt="Comfort Group logo" class="logo-image">
+            </a>
+            <ul class="hamburger-menu__switch switch--white">
+              <li class="switch__item--white active"><a href="#" class="switch__link--white">Дім</a></li>
+              <li class="switch__item--white"><a href="#" class="switch__link--white">Офіс</a></li>
+            </ul>
+          </div>
+
+
+
+          <ul class="hamburger-menu__list">
+            <li class="hamburger-menu__item">
+              <a href="" class="hamburger-menu__link">Послуги</a>
+            </li>
+            <li class="hamburger-menu__item">
+              <a href="" class="hamburger-menu__link">Розрахунок вартості</a>
+            </li>
+            <li class="hamburger-menu__item">
+              <a href="" class="hamburger-menu__link">Актуальні запитання</a>
+            </li>
+            <li class="hamburger-menu__item">
+              <a href="" class="hamburger-menu__link">Контакти</a>
+            </li>
+          </ul>
+          <div class="hamburger-menu__bottom">
+            <ul class="hamburger-social social--white">
+              <li class="social__item--white">
+                <a href="#" class="social__link--white"><svg width="40" height="40">
+                  <use class="social__icon--white" href="img/svg/symbol-defs.svg#icon-instagram"></use>
+                </svg></a>
+              </li>
+              <li class="social__item--white">
+                <a href="#" class="social__link--white"><svg width="40" height="40">
+                  <use class="social__icon--white" href="img/svg/symbol-defs.svg#icon-facebook"></use>
+                </svg></a>
+              </li>
+              <li class="social__item--white">
+                <a href="#" class="social__link--white"><svg width="40" height="40">
+                  <use class="social__icon--white" href="img/svg/symbol-defs.svg#icon_whatsapp"></use>
+                </svg></a>
+              </li>
+            </ul>
+            <div class="hamburger-phone phone--white">
+              <a href="tel:+48534517801" class="phone__link--white">+48 534 517 801</a>
+            </div>
+          </div>
+        </div> 
+
+
+        <div aria-label="mobile menu switcher" aria-expanded="false" aria-controls="menu-container" class="header__hamburger hamburger">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </div>
+      </div>
+    </header>
+
+
+    <main>
+
+      <section class="hero section_colored">
+
+        <div class="wrapper hero__wrapper">
+          <div class="hero-top">
+            <div class="hero__content">
+              <h1 class="hero__title title-h1"><span class="text-accent">Приберемо</span> у вашому будинку чи квартирі у Лодзі всього за <span class="text-accent">399zł</span></h1>
+              <p class="hero__text">Клінінгова компанія Comfort Group пропонує акційну підписку на послуги клінінгу у Лодзі всього <span class="text-bold">за 399zł</span>. Підписка включає прибирання в кімнатах, санвузлі та кухні.</p>
+              <a href="#" class="button hero__button">Замовити прибирання</a>
+            </div>
+          </div>
+          <div class="hero-bottom">
+            <ul class="hero__advantages advantages">
+              <li class="advantages__item advantages-4__item">
+                <div class="advantages__imgage-wrapper">
+                  <img src="img/hero_icon_money.png" alt="Money icon" class="advantages-image" width="214" height="214">
+                </div>
+                <h4 class="advantages__title title-h4">Бюджетна підписка</h4>
+                <p class="advantages__text">Вартість місячної підписки всього <span class="text-bold">399zł</span>. Вона включає 2 прибирання на місяць.</p>
+              </li>
+              <li class="advantages__item advantages-4__item">
+                <div class="advantages__imgage-wrapper">
+                  <img src="img/hero_icon_check.png" alt="Check icon" class="advantages__image" width="214" height="214">
+                </div>
+                <h4 class="advantages__title title-h4">Безпечна хімія</h4>
+                <p class="advantages__text">
+                  У прибиранні ми використовуємо лише якісну та не агресивну хімію <span class="text-bold">KIEHL</span> та <span class="text-bold">Pomoc Domowa</span>.
+                </p>
+              </li>
+              <li class="advantages__item advantages-4__item">
+                <div class="advantages__imgage-wrapper">
+                  <img src="img/hero_icon_cleaner.png" alt="Cleaner icon" class="advantages__image" width="214" height="214">
+                </div>
+                <h4 class="advantages__title title-h4">Професійна техніка</h4>
+                <p class="advantages__text">Наші головні помічники у роботі - це техніка <span class="text-bold">KARCHER!</span> Вони забезпечують дійсно “кристальне” прибирання.</p>
+              </li>
+              <li class="advantages__item advantages-4__item">
+                <div class="advantages__imgage-wrapper">
+                  <img src="img/hero_icon_quality.png" alt="Quality icon" class="advantages__image" width="214" height="214">
+                </div>
+                <h4 class="advantages__title title-h4">Контроль якості</h4>
+                <p class="advantages__text">Ми завжди <span class="text-bold">запитуємо відгук</span> клієнта. Якщо ви не задоволені прибираннямми одразу приїдемо і все виправимо!</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section> 
+
+      
+      <section class="cleaning section-light">
+        <div class="wrapper cleaning__wrapper">
+          <h2 class="cleaning__title title-h2">Що входить в прибирання?</h2>
+          <ul class="cleaning__list work">
+            <li class="work__item">
+              <div class="work__content">
+                <div class="work__number text-number">01</div>
+                <h4 class="work__title title-h4">Бюджетна підписка</h4>
+                <p class="work__text">Ми відправимо до вас клінера з повним арсеналом професійних інструментів (миючі пилососи і пароочисники <span class="text-bold">KARCHER</span> та безпечна і суперпотужна хімія <span class="text-bold">KIEHL</span> та <span class="text-bold">Pomoc Domowa</span>). Клінер прибере будинок і відмиє всі поверхні від жиру, бруду та пилу. Він наведе порядок всередині шаф, помиє вікна та винесе сміття. Раз на 6 місяців проводимо хімчистку диванів, матраців та подушок.</p>
+              </div>
+              <p class="work__footer"></p>
+            </li>
+            <li class="work__item">
+              <div class="work__content">
+                <div class="work__number text-number">02</div>
+                <h4 class="work__title title-h4">Підтримуюче прибирання</h4>
+                <p class="work__text">Змінюємо постільну білизну, акуратно складаємо реші у шафі, видаляємо пил з поверхонь, пилососимо та миємо пілогу. Робимо все, аби тривати вашу домівку у чистоті!</p>
+              </div>
+              <p class="work__footer semitransparent-text">*Не включає миття вікон</p>
+            </li>
+          </ul>
+          <div class="check-room">
+            <ul class="room work__room">
+              <li data-room="1" class="room__item room__item-active">
+                Кухня
+              </li>
+              <li data-room="2" class="room__item">
+                Кімнати
+              </li>
+              <li data-room="3" class="room__item">
+                Санвузол
+              </li>
+            </ul>
+            <div class="room-image__wrapper room-wrapper-1 room-wrapper-active">
+              <img src="img/cleaning_kitchen.jpg" alt="Kitchen" class="room__image">
+
+              <div class="tooltip-kitchen-1__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Миємо підлогу</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+              <div class="tooltip-kitchen-2__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Протираємо плитку</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+              
+              <div class="tooltip-kitchen-3__wrapper tooltip__wrapper">
+                <div class="tooltip__circle tooltip__circle--top">
+                  <div class="tooltip__icon"></div>
+                </div>
+                <div class="tooltip__content--bottom">
+                  <span class="tooltip__text">Миємо раковину та плиту</span>
+                </div>
+
+              </div>
+
+              <div class="tooltip-kitchen-4__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Миємо техніку</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+              <div class="tooltip-kitchen-5__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Протираємо підвіконня, батареї, плінтуси, двері та вимикачі!</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="room-image__wrapper room-wrapper-2">
+              <img src="img/cleaning_room.jpg" alt="Room" class="room__image">
+
+              <div class="tooltip-room-1__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Прибираємо та виносимо сміття</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-room-2__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Пилососимо та миємо підлогу</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-room-3__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Хімчистка диванів, матраців, подушок, крісел та стільчиків</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-room-4__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Розставляємо взуття та складаємо ваші речі</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-room-5__wrapper tooltip__wrapper">
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+                <div class="tooltip__content--bottom">
+                  <span class="tooltip__text">Витираємо пил з усих відкритих та закритих поверхонь</span>
+                </div>
+              </div>
+
+              <div class="tooltip-room-6__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Миємо вікна,підвіконня, батареї, плінтуси, вимикачі, ручки, двері, люстри</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-room-7__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Заправляємо ліжка та змінюємо постільну білизну</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="room-image__wrapper room-wrapper-3">
+
+              <div class="tooltip-bathroom-1__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Миємо підлогу та плінтуси, пилососимо</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-bathroom-2__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Миємо ванну, крани та душову кабінку</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-bathroom-3__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Миємо та дезінфікуємо унітаз</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-bathroom-4__wrapper tooltip__wrapper">
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+                <div class="tooltip__content--bottom">
+                  <span class="tooltip__text">Протираємо всі поверхні</span>
+                </div>
+              </div>
+
+              <div class="tooltip-bathroom-5__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Чистимо дзеркала</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+              <div class="tooltip-bathroom-6__wrapper tooltip__wrapper">
+                <div class="tooltip__content">
+                  <span class="tooltip__text">Миємо раковину</span>
+                </div>
+                <div class="tooltip__circle">
+                  <div class="tooltip__icon"></div>
+                </div>
+              </div>
+
+
+
+              <img src="img/cleaning_bathroom.jpg" alt="Bathroom" class="room__image">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="package section_colored">
+        <div class="wrapper package__wrapper">
+          <h2 class="package__title title-h2">Пакет прибирання на місяць</h2>
+          <h5 class="package__subtitle">Підписка діє протягом 30 днів та лише за однією адресою. При закінченні терміну дія підписки згорає. Працюємо лише по місту Лодзь</h5>
+          <div class="package__subscribe subscribe">
+            <div class="subscribe__left">
+              <h3 class="subscribe__title title-h3">Місячна підписка на клінінг для будинку чи квартири</h3>
+              <ul class="subscribe__list">
+                <li class="subscribe__item list-circle">1 генеральне прибирання</li>
+                <li class="subscribe__item list-circle">1 базове прибирання</li>
+              </ul>
+              <p class="subscribe__description semitransparent-text">Хімчистка стільців, диванів, матраців, подушок 
+                та крісел раз у 6 місяців у подарунок!</p>
+            </div>
+            <div class="subscribe__right">
+              <div class="subscribe__price">399zł</div>
+              <p class="subscribe-price__description semitransparent-text">1 генеральне прибирання + 1 підтримуюче прибирання</p>
+              <a href="#" class="button subscribe__button">Замовити прибирання</a>
+            </div>
+          </div>
+
+
+          <div class="discount package__discount">
+            <b class="discount__title light__title">Порадь нас своїм знайомим та отримай знижку на наступну підписку з прибирання <span class="text-second-accent">50zł!</span></b>
+          </div>
+          <div class="package__help help">
+            <div class="help-image__wrapper">
+              <img src="img/help_bg.png" alt="Cleaner" class="help__image">
+            </div>
+            <div class="help__content">
+              <h3 class="help__title title-h3">Comfort Group допоможе вам організувати та підтримувати чистоту у вашому будинку</h3>
+              <ul class="help__list">
+                <li class="help__item list-circle">Проведемо прибирання квартири перед приходом гостей.</li>
+                <li class="help__item list-circle">Приберемо наслідки гучної вечірки.</li>
+                <li class="help__item list-circle">Зробимо генеральне прибирання і позбавимо вас необхідності витрачати на це свій вільний час.</li>
+                <li class="help__item list-circle">Будемо підтримувати чистоту у домі навіть коли ви на роботі!</li>
+              </ul>
+              
+            </div>
+          </div>
+          <ul class="package__advantages advantages">
+            <li class="advantages__item advantages-3__item">
+              <div class="advantages__image-wrapper">
+                <img src="img/help_icon_cleaner.png" alt="Cleaner icon" class="advantages-image" width="191" height="191">
+              </div>
+              <h4 class="advantages__title title-h4">Техніка KARCHER</h4>
+              <p class="advantages__text">
+                <span class="text-bold">KARCHER</span> — це професійна техніка, що забезпечує ретельне та якісне прибирання. Весь інвентар та техніки наші клінери приносять з собою!
+                </p>
+            </li>
+            <li class="advantages__item advantages-3__item">
+              <div class="advantages__imgage-wrapper">
+                <img src="img/help_icon_gel.png" alt="Gel icon" class="advantages__image" width="191" height="191">
+              </div>
+              <h4 class="advantages__title title-h4">Гіпоалергенні миючі засоби</h4>
+              <p class="advantages__text">
+                У прибиранні ми використовуємо лише якісну та не агресивну хімію <span class="text-bold">KIEHL</span> та <span class="text-bold">Pomoc Domowa</span>. Наші миючі засоби не мають різких запахів та гіпоалергенні
+              </p>
+            </li>
+            <li class="advantages__item advantages-3__item">
+              <div class="advantages__imgage-wrapper">
+                <img src="img/hero_icon_quality.png" alt="Quality icon" class="advantages__image" width="191" height="191">
+              </div>
+              <h4 class="advantages__title title-h4">Досвідчений персонал</h4>
+              <p class="advantages__text">Всі наші клінери спеціально підготовленні та <span class="text-bold">пройшли навчання</span> від нашої компанії. Ми збираємо відгуки про кожного працівника та <span class="text-bold">контролюємо їх роботу</span></p>
+            </li>
+          </ul>
+          <a href="#" class="button package__button">Замовити прибирання</a>
+        </div>
+      </section>
+
+
+      <section class="feedback section-light">
+        <div class="wrapper feedback__wrapper">
+          <h2 class="feedback__title title-h2">Відгуки про компанію Comfort Group</h2>
+          <ul class="feedback__list feedback-section__list">
+            <li class="feedback__item">
+              <h4 class="feedback-item__title title-h4">Міколай Ковальчук</h4>
+              <div class="feedback-image__wrapper">
+                <img src="img/feedback_stars.png" alt="Stars" class="feedback__image">
+              </div>
+              <p class="feedback__text">Дуже хороший сервіс! Клінер Анна приємна та працьовита дівчина. Приїхала без запізнень, швидко і якісно прибрала в моїй квартирі.</p>
+            </li>
+            <li class="feedback__item">
+              <h4 class="feedback-item__title title-h4">Марія Кравчук</h4>
+              <div class="feedback-image__wrapper">
+                <img src="img/feedback_stars.png" alt="Stars" class="feedback__image">
+              </div>
+              <p class="feedback__text">Замовляла прибирання в квартиру після косметичного ремонту. Дівчата з Comfort Group мене просто врятували! Прибрали дуже швидко та ретельно. Без їх допомоги я б ще не один день витрачала свій час на це прибирання!</p>
+            </li>
+            <li class="feedback__item">
+              <h4 class="feedback-item__title title-h4">Алекс Кашпор</h4>
+              <div class="feedback-image__wrapper">
+                <img src="img/feedback_stars.png" alt="Stars" class="feedback__image">
+              </div>
+              <p class="feedback__text">Оформлюю у Comfort Group вже другу місячну підписку. З моїм графком роботи це ідеальний варіант. Вдома завжди чисто та свіжо! Дякую за вашу роботу!</p>
+            </li>
+            <li class="feedback__item">
+              <h4 class="feedback-item__title title-h4">Бронислав Левандовський</h4>
+              <div class="feedback-image__wrapper">
+                <img src="img/feedback_stars.png" alt="Stars" class="feedback__image">
+              </div>
+              <p class="feedback__text">Чудові клінери та сервіс. Не шкодую що обрав саме вас: прибрали ретельно та швидко.</p>
+            </li>
+            
+            <li class="feedback__item">
+              <h4 class="feedback-item__title title-h4">Ян Кравчик</h4>
+              <div class="feedback-image__wrapper">
+                <img src="img/feedback_stars.png" alt="Stars" class="feedback__image">
+              </div>
+              <p class="feedback__text">Дякую за гарну роботу! Ви чудово прибрали наш офіс після новорічного корпоративу.</p>
+            </li>
+
+            <li class="feedback__item">
+              <h4 class="feedback-item__title title-h4">Юлія Возняк</h4>
+              <div class="feedback-image__wrapper">
+                <img src="img/feedback_stars.png" alt="Stars" class="feedback__image">
+              </div>
+              <p class="feedback__text">Замовляла місячну підписку на прибирання для своєї бабусі. Тетяна з Comfort Group була дуже милою та ретельно все прибрала.</p>
+            </li>
+          </ul>
+          <div class="feedback__buttons">
+            <a class="feedback__button button">Залишити відгук у Google</a>
+            <a class="feedback__button button_bordered">Залишити відгук у Facebook</a>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="about-us section_colored">
+        <div class="wrapper about-us__wrapper">
+          <section class="trust">
+            <h2 class="trust__title title-h2">Чому нам можна довіряти</h2>
+            <ul class="trust__list">
+              <li class="trust__item">
+                <div class="trust__number text-number">01</div>
+                <h4 class="trust-item__title title-h4">Індивідуальний підхід</h4>
+                <p class="trust__text">Ми знаємо що немає однаково забруднених приміщень. Тому до кожного клінінгу підходимо індивідуально. Ми приводимо приміщення до “кришталевої” чистоти не залежно від рівня забруднення.</p>
+              </li>
+              <li class="trust__item">
+                <div class="trust__number text-number">02</div>
+                <h4 class="trust-item__title title-h4">Стежимо за якістю прибирання</h4>
+                <p class="trust__text">Після кожного прибирання ми збираємо у клієнтів чесні відгуки про роботу клінерів. <br>У разі якщо клієнт не задоволенний якістю прибирання ми проводимо повторне прибирання або повністю повертаємо кошти.</p>
+              </li>
+              <li class="trust__item">
+                <div class="trust__number text-number">03</div>
+                <h4 class="trust-item__title title-h4">Професійна техніка та безпечна хімія</h4>
+                <p class="trust__text">Техніка бренду <span class="text-bold">“KARCHER”</span> забезпечує ретельне та якісне прибирання. А миючі засоби німецького бренду <span class="text-bold">“KIEHL”</span> мають високу очисну здатність і впораються навіть з складними забрудненнями. Вся наша хімія не має різких запахів та гіпоалергенна.</p>
+              </li>
+              <li class="trust__item">
+                <div class="trust__number text-number">04</div>
+                <h4 class="trust-item__title title-h4">Чесні ціни доступні кожному</h4>
+                <p class="trust__text">Вартість наших послуг формується по прозорій схемі. Клієнти Comfort Group можуть заощадити замовивши акційну місячну підписку або скориставшись нашими акціями.</p>
+              </li>
+            </ul>
+            <a href="#" class="button trust__button">Замовити прибирання</a>
+          </section>
+  
+          <section class="questions">
+            <h2 class="questions__title title-h2">Популярні запитання</h2>
+            <div class="accordion__wrapper question-accordion__wrapper">
+              <ul class="accordion questions__accordion">
+                <li class="accordion__item">
+                  <label for="acc1" class="accordion__label">
+                    <input checked type="checkbox" class="accordion__input" id="acc1" name="accordion">
+                    <div class="accordion-header">
+                      <h5 class="title-h5 accordion__title">Скільки коштує клінінг?</h5>
+                      <span class="accordion__button"></span>
+                    </div>
+                    <div class="accordion__content">
+                      <p class="accordion__text">Для будинків та квартир у нас діє акційна місячна підписка вартістю <span class="text-bold">399zł</span>.<br> 
+                      В підписку входить 1 генеральне прибирання та 1 підтримуюче.</p>
+                      <p class="accordion__text">Прибирання офісів на ресторанів — <span class="text-bold">2zł за м²</span>.<br>
+                      Прибирання приміщень після ремонту — <span class="text-bold">5zł за м²</span>.</p>
+                    </div>
+                  </label>
+                </li>
+                <li class="accordion__item">
+                  <label for="acc2" class="accordion__label">
+                    <input type="checkbox" class="accordion__input" id="acc2" name="accordion">
+                    <div class="accordion-header">
+                      <h5 class="title-h5 accordion__title">Якими засобами користуємося?</h5>
+                      <span class="accordion__button"></span>
+                    </div>
+                    <div class="accordion__content">
+                      <p class="accordion__text">W naszej pracy używamy tylko wysokiej jakości niemieckiego sprzętu <span class="text-bold">KARCHER</span> oraz detergentów <span class="text-bold">KIEHL</span>.
+                        Cała nasza chemia jest całkowicie bezpieczna i nie powoduje alergii.
+                      </p>
+                    </div>
+                  </label>
+                </li>
+                <li class="accordion__item">
+                  <label for="acc3" class="accordion__label">
+                    <input type="checkbox" class="accordion__input" id="acc3" name="accordion">
+                    <div class="accordion-header">
+                      <h5 class="title-h5 accordion__title">Скільки годин триває прибирання?</h5>
+                      <span class="accordion__button"></span>
+                    </div>
+                    <div class="accordion__content">
+                      <p class="accordion__text">Czas sprzątania zależy od powierzchni pomieszczenia i stopnia zabrudzenia. Nasi sprzątacze zwykle kończą sprzątanie w ciągu 2-3 godzin.</p>
+                    </div>
+                  </label>
+                </li>
+                <li class="accordion__item">
+                  <label for="acc4" class="accordion__label">
+                    <input type="checkbox" class="accordion__input" id="acc4" name="accordion">
+                    <div class="accordion-header">
+                      <h5 class="title-h5 accordion__title">Що таке підписка на прибирання?</h5>
+                      <span class="accordion__button"></span>
+                    </div>
+                    <div class="accordion__content">
+                      <p class="accordion__text">Abonament to wyjątkowa oferta promocyjna na miesięczny pakiet sprzątający! Plusem subskrypcji jest to, że za przystępną cenę otrzymasz 1 sprzątanie ogólne i 1 czyszczenie konserwacyjne miesięcznie. Nie musisz tracić czasu na ponowne zamawianie sprzątaczki, po wykupieniu abonamentu przyjedziemy o umówionej godzinie.</p>
+                    </div>
+                  </label>
+                </li>
+                <li class="accordion__item">
+                  <label for="acc5" class="accordion__label">
+                    <input type="checkbox" class="accordion__input" id="acc5" name="accordion">
+                    <div class="accordion-header">
+                      <h5 class="title-h5 accordion__title">Скільки коштує клінінг?</h5>
+                      <span class="accordion__button"></span>
+                    </div>
+                    <div class="accordion__content">
+                      <p class="accordion__text">Uważnie monitorujemy jakość sprzątania i zbieramy opinie od każdego klienta. Jeśli nie podoba Ci się jakość sprzątania, wyczyścimy go ponownie w najbliższych dniach.</p>
+                    </div>
+                  </label>
+                </li>
+                <li class="accordion__item">
+                  <label for="acc6" class="accordion__label">
+                    <input type="checkbox" class="accordion__input" id="acc6" name="accordion">
+                    <div class="accordion-header">
+                      <h5 class="title-h5 accordion__title">Як замовити та оплатити прибирання?</h5>
+                      <span class="accordion__button"></span>
+                    </div>
+                    <div class="accordion__content">
+                      <p class="accordion__text">Na naszej stronie możesz od razu zamówić i opłacić sprzątanie! Wpisz swoje dane, datę i adres w formularzu oraz wybierz dogodną formę płatności (online lub gotówka na spotkaniu). Ponadto na naszej stronie możesz obliczyć koszt sprzątania lokalu za pomocą <span class="text-bold">kalkulatora!</span></p>
+                    </div>
+                  </label>
+                </li>
+              </ul>
+              <a href="#" class="button question-accordion__button">Задати своє питання</a>
+            </div>
+          </section>
+          <section class="contact-us">
+            <h2 class="title-h2 contact-us__title">Зв’язок з нами</h2>
+            <ul class="contact-us__list">
+              <li class="contact-us__item contact-us__left">
+                <h4 class="contact-us-left__title title-h4">Comfort Group</h4>
+                <p class="contact-us-left__text">NIP — 7822835823<br>
+                  REGON — 523849733</p>
+                <a href="tel:+48534517801" class="contact-us-left__button button_bordered">+48 534 517 801</a>
+                <ul class="contact-us-left__social">
+                  <li class="social-left__item">
+                    <a class="social-left__link">
+                      <svg width="40" height="40">
+                        <use class="social-left__icon" href="img/svg/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-left__item">
+                    <a class="social-left__link">
+                      <svg width="40" height="40">
+                        <use class="social-left__icon" href="img/svg/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-left__item">
+                    <a class="social-left__link">
+                      <svg width="40" height="40">
+                        <use class="social-left__icon" href="img/svg/symbol-defs.svg#icon_whatsapp"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="contact-us__item contact-us__right">
+                <h3 class="contact-us-right__title title-h3">Наша жива служба підтримки
+                </h3>
+                <ul class="contact-us-right__list">
+                  <li class="contact-us-right-list__item list-circle">Працюємо 24/7</li>
+                </ul>
+                <ul class="contact-us-right__social">
+                  <li class="social-right__item">
+                    <a class="social-right__link">
+                      <svg width="40" height="40">
+                        <use class="social-right__icon" href="img/svg/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-right__item">
+                    <a class="social-right__link">
+                      <svg width="40" height="40">
+                        <use class="social-right__icon" href="img/svg/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-right__item">
+                    <a class="social-right__link">
+                      <svg width="40" height="40">
+                        <use class="social-right__icon" href="img/svg/symbol-defs.svg#icon-messenger"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+                <p class="contact-us-right__text">або за номером</p>
+                <a href="tel:+48534517801" class="contact-us-right__phone">+48 534 517 801</a>
+              </li>
+            </ul>
+          </section>
+          <section class="order">
+            <h2 class="order__title light__title">Досить витрачати свій вільний час на прибирання! Замовляйте <span class="text-second-accent">місячну</span> <span class="text-second-accent">підписку</span> на клінінг вашого дому!</h2>
+            <div class="order__price">399zł</div>
+            <p class="order__text">1 генеральне прибирання + 1 підтримуюче прибирання</p>
+            <a href="#" class="order__button button_bordered">Замовити прибирання</a>
+          </section>
+        </div>
+  
+      </div>
+  
+    </main>
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__top">
+          <div class="footer__menu">
+            <div class="footer__about-us menu__item">
+              <h2 class="footer__title">Про нас</h2>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="" class="footer__link">Послуги</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Вартість</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Питання</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Контакти</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__services menu__item footer-item-services">
+              <h2 class="footer__title">Послуги</h2>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="" class="footer__link">Прибирання квартир та будинків</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Прибирання офісів та ресторанів</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Прибирання після ремонту</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__contacts menu__item footer-item-contacts"> 
+              <h2 class="footer__title">Контакти</h2>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  на зв’язку 24/7
+                </li>
+                <li class="footer__item">
+                  <a href="tel:+48534517801" class="footer__link footer-contact__link">+48 534 517 801</a>
+                </li>
+                <li class="footer__item">
+                  <a href="mailto:1@gmail.com" class="footer__link footer-contact__link">пошта</a>
+                </li>
+                <li class="footer__item">
+                  <a href="https://goo.gl/maps/re28h6XesfAQJARr9" class="footer__link footer-contact__link">адреса</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__socisls">
+            <h2 class="footer__title">Наша технічна підтримка</h2>
+            <ul class="footer-socials__list">
+              <li class="footer-socials__item">
+                <a href="" class="footer-socials__link">
+                  <svg width="40" height="40">
+                    <use class="social__icon" href="img/svg/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-socials__item">
+                <a href="" class="footer-socials__link">
+                  <svg width="40" height="40">
+                    <use class="social__icon" href="img/svg/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-socials__item">
+                <a href="" class="footer-socials__link">
+                  <svg width="40" height="40">
+                    <use class="social__icon" href="img/svg/symbol-defs.svg#icon_whatsapp"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>  
+        </div>
+  
+        <div class="footer__bottom">
+          <div class="footer__copyright">
+            <p class="copyright__text semitransparent-text">&copy;2023 Всі права захищено</p>
+            <a href="#" class="copyright__link semitransparent-text">Політика конфіденційності</a>
+            <a href="#" class="copyright__link semitransparent-text">Договір публічної оферти</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/hamburger.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/feedback.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.about-us {
+  padding: 116px 0 164px 0;
+  @include media-large {
+    padding: 64px 0;
+  }
+}
+.about-us__wrapper {
+}
+

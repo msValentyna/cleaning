@@ -1,0 +1,96 @@
+.title-h1 {
+  @extend %font-secondary;
+  @include font ($size: 5.5rem, $height: 1.15, $weight: 700);
+  @include media-medium {
+    @include font ($size: 3.6rem, $height: 1.15, $weight: 700);
+  }
+  @include media-small {
+    @include font ($size: 2.6rem, $height: 1.15, $weight: 700);
+  }
+}
+.title-h2 {
+  @extend %font-secondary;
+  @include font ($size: 4.6rem, $weight: 700);
+  text-align: center;
+  @include media-large {
+    @include font ($size: 3.2rem, $weight: 700);
+  }
+  @include media-small {
+    @include font ($size: 2.4rem, $weight: 700);
+  }
+}
+.title-h3 {
+  @extend %font-secondary;
+  @include font ($size: 3.2rem, $height: 1.15, $weight: 600);
+  @include media-large {
+    @include font ($size: 2.8rem, $height: 1.15, $weight: 600);
+  }
+  @include media-small {
+    @include font ($size: 2.0rem, $height: 1.15, $weight: 600);
+  }
+}
+.title-h4 {
+  @extend %font-secondary;
+  @include font ($size: 2.2rem, $weight: 600);
+  @include media-large {
+    @include font ($size: 2.0rem, $weight: 600);
+  }
+}
+.title-h5 {
+  @extend %font-secondary;
+  @include font ($size: 2.4rem, $weight: 600);
+  @include media-large {
+    @include font ($size: 2.2rem, $weight: 600);
+  }
+  @include media-small {
+    @include font ($size: 2.0rem, $weight: 600);
+  }
+}
+.light__title {
+  display: inline-block;
+  color: $color-background-dark;
+  @extend %font-secondary;
+  @include font ($size: 3.2rem, $weight: 600);
+  @include media-large {
+    @include font ($size: 2.8rem, $weight: 600);
+  }
+  @include media-small {
+    @include font ($size: 2.0rem, $weight: 600);
+  }
+}
+.text-accent {
+  color: $color-accent;
+}
+.text-second-accent {
+  display: inline-block;
+  background-color: $color-second-accent;
+  border-radius: 30px;
+  padding: 0 5px;
+}
+.text-bold {
+  font-weight: 700;
+}
+.semitransparent-text {
+  color: $color-text-light;
+  @include font ($size: 1.2rem);
+}
+.list-circle {
+  position: relative;
+  padding-left: 23px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: $color-accent;
+  }
+}
+.text-number {
+  @include font ($size: 3.2rem, $weight: 600);
+  color: $color-accent;
+}

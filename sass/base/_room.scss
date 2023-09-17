@@ -1,0 +1,18 @@
+.room {
+  padding: 6px;
+  display: flex;
+  border-radius: 50px;
+  border: 2px solid $color-accent;
+}
+.room__item {
+  flex-basis: calc(100% / 3);
+  padding: 16px;
+  text-align: center;
+  @include font ($size: 2.0rem, $weight: 600);
+  @extend %transition;
+  border-radius: 50px;
+}
+.room__item-active {
+  color: $color-light;
+  background-color: $color-accent;
+}

@@ -1,0 +1,122 @@
+.contact-us {
+  padding: 116px 0;
+}
+.contact-us__title {
+  margin-bottom: 64px;
+  @include media-small {
+    margin-bottom: 48px;
+  }
+}
+.contact-us__list {
+  display: flex;
+  justify-content: space-between;
+  @include media-small {
+    flex-direction: column;
+  }
+}
+.contact-us__item {
+  flex-basis: calc((100% - 160px) / 2);
+}
+.contact-us__left {
+  padding: 40px 40px 40px 140px;
+  @include media-large {
+    flex-basis: 43%;
+    padding-left: 25px;
+  }
+}
+.contact-us-left__title {
+  margin-bottom: 16px;
+}
+.contact-us-left__text {
+  margin-bottom: 32px;
+}
+.contact-us-left__button {
+  margin-bottom: 13px;
+}
+.contact-us-left__social {
+  display: flex;
+  gap: 16px;
+}
+.social-left__item {
+}
+.social-left__link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $color-background-dark;
+  @extend %transition;
+  &:hover {
+    background-color: $color-light;
+  }
+  &:hover .social-left__icon {
+    fill: $color-accent-light;
+  }
+}
+.social-left__icon {
+  fill: $color-accent;
+  @extend %transition;
+}
+.contact-us__right {
+  border-radius: 30px;
+  background-color: $color-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  @include media-large {
+    flex-basis: 57%;
+    padding: 15px;
+  }
+}
+.contact-us-right__title {
+  max-width: 420px;
+  text-align: center;
+  margin-bottom: 16px;
+  @include media-large {
+    max-width: 330px;
+  }
+}
+.contact-us-right__list {
+  margin-bottom: 32px;
+}
+.contact-us-right-list__item {
+  
+}
+.contact-us-right__social {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 16px;
+}
+.social-right__item {
+
+}
+.social-right__link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $color-background-dark;
+  @extend %transition;
+  &:hover {
+    background-color: $color-light;
+  }
+  &:hover .social-right__icon {
+    fill: $color-accent-light;
+  }
+}
+.social-right__icon {
+  fill: $color-accent;
+}
+.contact-us-right__text {
+  margin-bottom: 16px;
+}
+.contact-us-right__phone {
+  color: $color-accent;
+  @include font ($size: 2.0rem, $weight: 700);
+  @extend %font-primary;
+  @extend %transition;
+  &:hover {
+    color: $color-accent-light;
+  }
+}

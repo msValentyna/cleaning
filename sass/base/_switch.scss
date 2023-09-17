@@ -1,0 +1,65 @@
+.switch {
+  padding: 5px;
+  display: flex;
+  width: 128px;
+  height: 40px;
+  @extend %border;
+}
+
+.switch__item {
+  padding: 3px 14px;
+  border-radius: 25px;
+  background-color: transparent;
+  @include font($size: 1.4rem, $height: normal, $weight: 600, $style: normal);
+  @extend %transition;
+  &.active {
+    background-color: $color-accent;
+    & .switch__link {
+      color: $color-light;
+      pointer-events: none;
+    }
+  }
+  &:hover {
+    background-color: $color-accent;
+  }
+  &:hover .switch__link{
+    color: $color-light;
+  }
+}
+.switch__link {
+  color: $color-text;
+}
+
+.switch--white {
+  padding: 5px;
+  display: flex;
+  width: 128px;
+  height: 40px;
+  @extend %border--white;
+}
+.switch__item--white {
+  padding: 3px 14px;
+  border-radius: 25px;
+  background-color: transparent;
+  @include font($size: 1.4rem, $height: normal, $weight: 600, $style: normal);
+  @extend %transition;
+  &.active {
+    background-color: $color-light;
+    & .switch__link--white {
+      color: $color-accent;
+      pointer-events: none;
+    }
+  }
+  &:hover {
+    background-color: $color-light;
+  }
+  &:hover .switch__link--white {
+    color: $color-accent;
+  }
+
+
+}
+.switch__link--white {
+  color: $color-light;
+}
+
