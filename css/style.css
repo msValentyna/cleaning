@@ -1206,7 +1206,7 @@ body {
   width: 268px;
   height: 206px;
   rotate: -15deg;
-  background-image: url(/img/discount_bg.png);
+  background-image: url(../img/discount_bg.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -1327,7 +1327,7 @@ body {
   display: block;
   width: 53px;
   height: 50px;
-  background-image: url(/img/subscribe_gift.png);
+  background-image: url(../img/subscribe_gift.png);
   background-repeat: no-repeat;
 }
 @media (max-width: 992px) {
@@ -1751,7 +1751,7 @@ body {
 
 .hero {
   padding: 141px 0 194px 0;
-  background-image: url(./img/hero_bg.png);
+  background-image: url(../img/hero_bg.png);
   background-repeat: no-repeat;
   background-position: 112% 20%;
   background-size: 60%;
@@ -2045,7 +2045,7 @@ body {
   display: block;
   width: 157px;
   height: 157px;
-  background-image: url(/img/trust_brush.png);
+  background-image: url(../img/trust_brush.png);
   background-repeat: no-repeat;
   background-size: contain;
   transform: rotate(-5deg);
@@ -2068,7 +2068,7 @@ body {
   display: block;
   width: 140px;
   height: 140px;
-  background-image: url(/img/trust_sponge.png);
+  background-image: url(../img/trust_sponge.png);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 20;
@@ -2282,7 +2282,7 @@ body {
 @media (max-width: 640px) {
   .order {
     padding: 32px 16px;
-    background-image: url(/img/order_bucket.png);
+    background-image: url(../img/order_bucket.png);
     background-repeat: no-repeat;
     background-position: 94% 36%;
   }
@@ -2295,7 +2295,7 @@ body {
   height: 100%;
 }
 .order::before {
-  background-image: url(/img/order_bg_left.png);
+  background-image: url(../img/order_bg_left.png);
   background-repeat: no-repeat;
   background-size: contain;
   top: 0%;
@@ -2314,7 +2314,7 @@ body {
   }
 }
 .order::after {
-  background-image: url(/img/order_bg_right.png);
+  background-image: url(../img/order_bg_right.png);
   background-repeat: no-repeat;
   background-size: contain;
   bottom: 0%;

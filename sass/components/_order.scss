@@ -6,7 +6,7 @@
 
   @include media-small {
     padding: 32px 16px;
-    background-image: url(/img/order_bucket.png);
+    background-image: url(../img/order_bucket.png);
     background-repeat: no-repeat;
     background-position: 94% 36%;
   }
@@ -19,7 +19,7 @@
 
   }
   &::before {
-    background-image: url(/img/order_bg_left.png);
+    background-image: url(../img/order_bg_left.png);
     background-repeat: no-repeat;
     background-size: contain;
     top: 0%;
@@ -34,7 +34,7 @@
     }
   }
   &::after {
-    background-image: url(/img/order_bg_right.png);
+    background-image: url(../img/order_bg_right.png);
     background-repeat: no-repeat;
     background-size: contain;
     bottom: 0%;
